@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setting_menu"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/setting_page" />
+
+    <item
+        android:id="@+id/about_application_menu"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/about_application" />
+
+    <item
+        android:id="@+id/exit_menu"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/exit" />
+
+</menu>

@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">My Notebook</string>
+    <string name="add_new_page">Создать новую заметку</string>
+    <string name="title_text">Заголовок</string>
+    <string name="note_text">Текст заметки</string>
+    <string name="save_note">Сохранить заметку</string>
+    <string name="setting_page">Настройки</string>
+    <string name="setting_text">В разработке</string>
+    <string name="delete_note">Удалить заметку</string>
+    <string name="change_note_menu">Изменить заметку</string>
+    <string name="exit">Выход</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="press_back_exit">Нажмите еще раз кнопку назад для выхода</string>
+    <string name="dialog_delete_note">Вы уверены, что хотите удалить заметку %1$s</string>
+    <string name="add_new_note_notification">Создана заметка под названием %1$s</string>
+    <string name="about_application">О приложении</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="about_title_text">О приложении</string>
+    <string name="about_text">В разработке</string>
 </resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="large_padding">16dp</dimen>
+    <dimen name="big_padding">24dp</dimen>
+
+    <dimen name="small_radius">8dp</dimen>
+    <dimen name="large_radius">16dp</dimen>
+    <dimen name="big_radius">24dp</dimen>
+
+    <dimen name="small_elevation">8dp</dimen>
+    <dimen name="large_elevation">16dp</dimen>
+    <dimen name="big_elevation">24dp</dimen>
+
+    <dimen name="small_text">16dp</dimen>
+    <dimen name="large_text">28dp</dimen>
+    <dimen name="big_text">46dp</dimen>
+    <dimen name="text_size_title">@dimen/large_text</dimen>
+    <dimen name="text_size_note_text">@dimen/small_text</dimen>
+
+    <dimen name="padding">@dimen/large_padding</dimen>
+
+    <dimen name="corner_radius">@dimen/large_radius</dimen>
+
+    <dimen name="card_elevation">@dimen/small_elevation</dimen>
+
+    <dimen name="text_size_about">@dimen/large_text</dimen>
+</resources>
