@@ -9,17 +9,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-//import ru.gb.mynotebook.databinding.FragmentSettingsBinding;
+import ru.gb.mynotebook.databinding.FragmentSettingsBinding;
 
 public class SettingsFragment extends Fragment {
-//    private FragmentSettingsBinding binding;
+    private FragmentSettingsBinding binding;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-//        binding = FragmentSettingsBinding.inflate(inflater, container, false);
-//        return binding.getRoot();
-        return null;
+        binding = FragmentSettingsBinding.inflate(inflater, container, false);
+        return binding.getRoot();
     }
 
     @Override
@@ -29,7 +28,7 @@ public class SettingsFragment extends Fragment {
 
     @Override
     public void onDestroy() {
-//        binding = null;
+        binding = null;
         super.onDestroy();
     }
 }

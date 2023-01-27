@@ -81,7 +81,7 @@ public class NotePageFragment extends Fragment {
                 requireActivity().getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.fragment_notepad_list_container, new NotepadPagesFragment())
-//                        .replace(R.id.fragment_notepad_list_container_two, new NotePageFragment())
+                        .replace(R.id.fragment_notepad_list_container_two, new NotePageFragment())
                         .commit();
             }
         });

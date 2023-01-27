@@ -5,7 +5,6 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import ru.gb.mynotebook.R;
 import ru.gb.mynotebook.databinding.NotepadListActivityBinding;
 import ru.gb.mynotebook.domain.NoteEntity;
@@ -49,7 +48,7 @@ public class NotepadPagesActivity extends AppCompatActivity implements NotepadPa
     public void openNewNoteLand(NoteEntity item) {
         getSupportFragmentManager()
                 .beginTransaction()
-//                .replace(binding.fragmentNotepadListContainerTwo.getId(), NotePageFragment.newInstance(item))
+                .replace(binding.fragmentNotepadListContainerTwo.getId(), NotePageFragment.newInstance(item))
                 .addToBackStack(null)
                 .commit();
     }
@@ -58,7 +57,7 @@ public class NotepadPagesActivity extends AppCompatActivity implements NotepadPa
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(binding.fragmentNotepadListContainer.getId(), new NotepadPagesFragment())
-//                .replace(binding.fragmentNotepadListContainerTwo.getId(), new NotePageFragment())
+                .replace(binding.fragmentNotepadListContainerTwo.getId(), new NotePageFragment())
                 .commit();
     }
 
@@ -73,7 +72,7 @@ public class NotepadPagesActivity extends AppCompatActivity implements NotepadPa
     public void openSettingsFragmentLand() {
         getSupportFragmentManager()
                 .beginTransaction()
-//                .replace(binding.fragmentNotepadListContainerTwo.getId(), new SettingsFragment())
+                .replace(binding.fragmentNotepadListContainerTwo.getId(), new SettingsFragment())
                 .addToBackStack(null)
                 .commit();
     }
@@ -89,7 +88,7 @@ public class NotepadPagesActivity extends AppCompatActivity implements NotepadPa
     public void openAboutApplicationFragmentLand() {
         getSupportFragmentManager()
                 .beginTransaction()
-//                .replace(binding.fragmentNotepadListContainerTwo.getId(), new AboutApplicationFragment())
+                .replace(binding.fragmentNotepadListContainerTwo.getId(), new AboutApplicationFragment())
                 .addToBackStack(null)
                 .commit();
     }
